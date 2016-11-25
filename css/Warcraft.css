@@ -1,0 +1,504 @@
+html {
+	background-color: #000000;
+	padding: 0;
+	margin: 0;
+}
+
+#html1 #html3 {
+	overflow: auto;
+}
+
+body {
+	font-size: 1.65em;
+	font-family: Tahoma;
+	background-size: 400px 250px;
+	background-repeat: no-repeat;
+}
+
+nav
+{
+	line-height: 1.3em;
+	text-align: center;
+}
+
+nav ul 
+{
+	list-style: none;
+	display: inline-block;
+}
+
+nav li 
+{
+	padding: 1em;
+	padding-right: 1em;
+	display: inline-block;
+}
+
+nav a 
+{
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.3em;
+	background-color: #050077;
+	padding: 8px 16px;
+	color: #C29900;
+	font-weight: bold;
+}
+
+a:hover {
+	background-color: #A3001B;
+	color: #000000;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+h3 {
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+p {
+	border: 2px #EEEEEE;
+	padding: 0.2em;
+	margin-top: 0;
+	font-size: 16px;
+}
+
+img.alliance1 {
+	vertical-align: middle;
+	float: left;
+	width: 250px;
+	height: 250px;
+	padding-top: 6em;
+}
+
+img.horde1 {
+	vertical-align: middle;
+	float: right;
+	width: 250px;
+	height: 250px;
+	padding-top: 6em;
+}
+
+footer {
+    clear: both;
+    color: white;
+    font-size: 12px;
+    bottom: 10px;
+    padding-top: 1em;
+    text-align: right;
+}
+
+/*HOME*/
+
+#welkom {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#p1 {
+	margin-bottom: 0;
+}
+
+div.divVideo {
+	text-align: center;
+}
+
+#video1 {
+	height: 697px;
+	width: 90%;
+	border: none;
+}
+
+/*ALLIANCE*/
+
+div.div2 {
+	float: left;
+	padding-top: 0.1em;
+	padding-left: 0.1em;
+	padding-right: 1em;
+	border-style: solid;
+	border-color: #050077;
+	border-width: 3px;
+	width: 90%;
+}
+
+img.anduin1 {
+	float: left;
+	padding-right: 0.5em;
+	width: 280px;
+	height: 300px;
+	padding-bottom: 1em;
+}
+
+img.medivh1 {
+	float: left;
+	padding-right: 0.5em;
+	width: 280px;
+	height: 200px;
+	padding-bottom: 1em;
+}
+
+img.llane2 {
+	float: left;
+	padding-right: 0.5em;
+	width: 280px;
+	height: 300px;
+	padding-bottom: 1em;
+}
+
+#llane1 {
+	float: left;
+	padding-top: 0.1em;
+	padding-right: 1em;
+	padding-left: 0.1em;
+	border-style: solid;
+	border-color: #050077;
+	border-width: 3px;
+	width: 90%;
+}
+
+img.wiki {
+	width: 45px;
+	height: 40px;
+	background-color: black;
+}
+
+/*ABOUT*/
+
+.navAbout {
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.3em;
+	background-color: #C29900;
+	padding: 8px 16px;
+	color: black;
+	font-weight: bold;
+}
+
+.navAbout:hover {
+	background-color: #050077;
+	color: #C29900;
+	text-decoration: none;
+}
+
+section.section1 {
+	color: #FFFFFF;
+	padding-top: 3em;
+	width: 80%;
+	text-align: justify;
+	margin: auto;
+}
+
+div.div1 {
+	float: left;
+	padding-top: 0.1em;
+	padding-left: 0.1em;
+	padding-right: 1em;
+	border-style: solid;
+	border-color: #C29900;
+	border-width: 3px;
+	width: 90%;
+}
+
+#metzen1 {
+	float: left;
+	padding-top: 0.1em;
+	padding-right: 1em;
+	padding-left: 0.1em;
+	border-style: solid;
+	border-color: #C29900;
+	border-width: 3px;
+	width: 90%;
+}
+
+a.href1 {
+	background-color: black;
+	text-decoration: none;
+}
+
+img.imdb {
+	width: 65px;
+	height: 40px;
+	background-color: black;
+}
+
+img.warcraft1 {
+	float: left;
+	padding-right: 0.5em;
+	width: 280px;
+	height: 230px;
+	padding-top: 1em;
+	margin-bottom: 2em;
+}
+
+img.duncan1 {
+	float: left;
+	padding-right: 0.5em;
+	width: 280px;
+	height: 310px;
+	padding-bottom: 1em;
+}
+
+img.metzen2 {
+	float: left;
+	padding-right: 0.5em;
+	width: 280px;
+	height: 220px;
+	padding-top: 1.6em;
+	margin-bottom: 2em;
+}
+
+/*HORDE*/
+
+.navHorde {
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.3em;
+	background-color: #A3001B;
+	padding: 8px 16px;
+	color: black;
+	font-weight: bold;
+}
+
+.navHorde:hover {
+	background-color: #050077;
+	color: #C29900;
+	text-decoration: none;
+}
+
+div.div3 {
+	float: left;
+	padding-top: 0.1em;
+	padding-left: 0.1em;
+	padding-right: 1em;
+	border-style: solid;
+	border-color: #A3001B;
+	border-width: 3px;
+	width: 90%;
+}
+
+img.orgrim1 {
+	float: left;
+	padding-right: 0.5em;
+	width: 280px;
+	height: 280px;
+	padding-bottom: 1em;
+}
+
+img.durotan1 {
+	float: left;
+	padding-right: 0.5em;
+	width: 280px;
+	height: 250px;
+	padding-bottom: 1em;
+}
+
+img.guldan2 {
+	float: left;
+	padding-right: 0.5em;
+	width: 280px;
+	height: 300px;
+	padding-bottom: 1em;
+}
+
+#guldan1 {
+	float: left;
+	padding-top: 0.1em;
+	padding-right: 1em;
+	padding-left: 0.1em;
+	border-style: solid;
+	border-color: #A3001B;
+	border-width: 3px;
+	width: 90%;
+}
+
+img.wiki {
+	width: 45px;
+	height: 40px;
+	background-color: black;
+}
+/*ROUTE*/
+
+div.div4 {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+div.map1 {
+	text-align: center;
+}
+
+#frame1 {
+	width: 60%;
+    height: 700px;
+    border: none;
+}
+
+#clear {
+	clear: both;
+}
+
+/*MEDIA*/
+
+@media screen and (max-width: 1024px) {
+
+nav a {
+	text-decoration: none;
+	text-align: center;
+	font-style: Lucida Bright;
+	font-size: 1em;
+	background-color: #050077;
+	padding: 4px 8px;
+	color: #C29900;
+	font-weight: bold;
+}
+
+.navHorde, .navAbout {
+	text-decoration: none;
+	text-align: center;
+	font-size: 1em;
+	padding: 4px 8px;
+}
+
+nav li {
+  background-color: none;
+  margin-right: 20px;
+  padding: 0.5em;
+}
+
+body {
+  background-color: #000000;
+  background-image: none;
+}
+
+div.div1, div.div2, div.div3, div.div4 {
+  float: none;
+  display: block;
+  width: 100%;
+}
+
+#video1 {
+	width: 90%;
+}
+
+img.anduin1, img.medivh1, img.llane2, img.warcraft1, img.duncan1, img.metzen1 {
+	  width: 40%;
+}
+
+#llane1, #metzen1, #guldan1 {
+	width: 100%;
+}
+
+ img.alliance1, img.horde1 {
+	 display:none;
+}
+
+#frame1 {
+	width: 90%
+}
+
+@media screen and (max-width: 950px) {
+
+nav a {
+	text-decoration: none;
+	font-style: Lucida Bright;
+	font-size: 20px;
+	background-color: #050077;
+	padding: 4px 8px;
+	color: #C29900;
+	font-weight: bold;
+}
+
+.navHorde, .navAbout {
+	font-size: 20px;
+	padding: 4px 8px;
+}
+
+nav li {
+  background-color: none;
+  margin-right: 20px;
+  padding: 0.5em;
+}
+
+@media screen and (max-width: 800px) {
+
+nav {
+	line-height: 1em;
+	text-align: left;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	padding: 1px;
+	display: block;
+}
+
+nav a {
+	
+	background-color: black;
+	font-size: 11px;
+	color: #C29900;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #050077;
+	background-color: black;
+	text-decoration: none;
+}
+
+.navHorde {
+	font-size: 11px;
+	color: #A3001B;
+	background-color: black; 
+}
+
+.navHorde:hover {
+	color: #050077;
+	background-color: black;
+}
+
+.navAbout {
+	font-size: 11px;
+	color: #C29900;
+	background-color: black;
+}
+
+.navAbout:hover {
+	color: ;
+}
+
+.navAbout {
+	
+	background-color: black;
+	font-size: 11px;
+	color: #C29900;
+	font-weight: bold;
+}
+
+.navAbout:hover {
+	color: #050077;
+	background-color: black;
+	text-decoration: none;
+}
+
+#video1 {
+	height: auto;
+}
+
+section.section1 {
+	padding-top: 0;
+}
